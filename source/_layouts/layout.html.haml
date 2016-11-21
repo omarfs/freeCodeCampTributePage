@@ -1,0 +1,24 @@
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{:content => "IE=edge,chrome=1", :'http-equiv' => 'X-UA-Compatible'}
+    %meta{:name => "viewport", :content => "width=device-width", :'initial-scale' => 1, :'maximum-scale' => 1.0, :'user-scalable' => "no"}
+    %link{:href=>'https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300&subset=latin,latin-ext', :rel=>'stylesheet', :type=>'text/css'}
+    %link{:href=>"https://fonts.googleapis.com/css?family=Fjalla+One|Pathway+Gothic+One|Six+Caps|Yanone+Kaffeesatz:400,700",  :rel=>"stylesheet"}
+    %title
+      = current_page.data.title || "freeCodeCamp tribute page project"
+
+    = stylesheet_link_tag "application"
+
+  %body{:class => page_classes }
+    %header.site-header
+      = partial "_layouts/nav"
+    .top-rect
+    %main.site-main
+      .wrapper
+        = yield
+    %footer.site-footer
+      = partial "_layouts/footer"
+    = javascript_include_tag  "all"
+    

@@ -1,0 +1,27 @@
+albums:
+  - name: Pablo Honey
+    url: pablo-honey
+    summary: "Pablo Honey was released on 22 February 1993. The album received a generally favourable reception from critics, but was criticised by many for its derivative sound and inclusion of underdeveloped songs, and is often held in a negative light in comparison to the band's subsequent studio albums. However, some retrospectives have also shown it in a more positive light as well."
+    images:
+      - "(1993)%20Pablo%20Honey.jpg"
+    links:
+  - name: The Bends
+    url: the-bends
+    summary: The Bends marked the beginning of a shift in aesthetics and themes for the band, with greater use of keyboards, and more abrasive guitar tracks while balancing with subtler ones. The introspective grunge-influenced style of their debut studio album Pablo Honey (1993) evolved into more multi-layered rock with cryptic lyrics and larger ideas, as the band and singer Thom Yorke reacted against the rigors of their near-constant world tours.
+    images:
+      - '(1995)%20The%20Bends.jpg'
+      # - '(1997)%20OK%20Computer.jpg'
+      # - '(2000)%20Kid%20A.jpg'
+    links:
+  - name: OK Computer
+    url: ok-computer
+    summary: With OK Computer Radiohead made a deliberate attempt to distance themselves from the guitar-oriented, lyrically introspective style of their previous album, The Bends. OK Computer's abstract lyrics, densely layered sound and wide range of influences laid the groundwork for Radiohead's later, more experimental work.
+    images:
+      - '(1997)%20OK%20Computer.jpg'
+    links:
+  - name: Kid A
+    url: kid-a
+    summary: Burnt out after promoting Radiohead's acclaimed 1997 album OK Computer, songwriter Thom Yorke envisioned a radical change in direction. Incorporating influences from genres such as krautrock, jazz, 20th-century classical music, electronic music of Warp artists, Radiohead replaced their guitars with synthesisers, drum machines, the ondes Martenot, string orchestras and brass instruments. They recorded Kid A with OK Computer producer Nigel Godrich in Paris, Copenhagen, Gloucestershire and their hometown Oxford, England. The sessions produced over 20 finished tracks; Radiohead saved many of them for their subsequent album, Amnesiac, released the following year.
+    images:
+      - "(2000)%20Kid%20A.jpg"
+    links:

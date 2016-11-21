@@ -1,0 +1,10 @@
+- data.sitedata.albums.each_with_index do |x, index|
+  .album-item.row{:class => "#{x[:url]}", :id => "album-#{index}"}
+    .breadcrumb
+      .rotate
+        .album-title= x[:name]
+    .block-box.album-media
+      - x.images.each do |item|
+        = image_tag("#{item}", :class => "album-art")
+    .block-box.album-reference<
+      %p= x[:summary]

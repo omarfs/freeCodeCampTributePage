@@ -1,4 +1,5 @@
 site:
+  name: 'radiohead tribute page'
   domain: 'http://##########.org'
   tracking_code: '##########'
   tracking_view: '#################'
@@ -14,4 +15,3 @@ services:
 related:
   blog: 'http://blog.##########.org'
   company: 'http://www.##########.com/'
-
