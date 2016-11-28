@@ -5,20 +5,13 @@ if ('querySelector' in document && 'addEventListener' in window){
       siteName = document.querySelector('.site-header'),
       headShots = document.querySelector('.headshots'),
       bio = document.querySelector('.home-main > .content'),
+      navigation = document.querySelector('.navigation'),
       navToggle = document.querySelector('#nav-toggle'),
-      albumsNav = document.querySelector('.albums-nav'),
-      albums = document.querySelectorAll('.album-item'),
       controller = new ScrollMagic.Controller(),
       tl = new TimelineLite();
 
-  reverseNavTween = TweenMax.to(albumsNav, 1,{autoAlpha: 1, delay: 1}).reverse();
-
-
-
-
   navToggle.addEventListener('click', function(event){
-    navToggle.classList.toggle('is-active');
-    reverseNavTween.reversed(!reverseNavTween.reversed());
+  navigation.classList.toggle('is-active');
   });
 
   tl
