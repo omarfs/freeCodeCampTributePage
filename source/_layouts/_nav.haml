@@ -1,9 +1,8 @@
-.container
-  .main-navigation
-    %a{:id => "nav-toggle"}
-      %span
-    %a.navbar-brand{:href => "#"}
-      %span=data.settings.site.name
-  %nav.albums-nav
+.navigation
+  %a#nav-toggle.menu-trigger
+    %span
+  %a.navbar-brand{:href => "#"}
+    %span=data.settings.site.name
+  .albums-nav.nav-menu-2
     - data.sitedata.albums.each_with_index do |x, index|
-      =link_to  "#{x[:name]}", "\#album-#{index}", :class => "nav-item"
+      =link_to  "#{x[:name]}", "\#album-#{index}", :class => "nav-item hvr-underline-reveal"
